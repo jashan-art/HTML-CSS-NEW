@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>New Webpage</title>
+  </head>
+  <body>
+    <p class="TITLE">
+      Hello Welcome To My Page
+    </p>
+    <style>
+      .TITLE{
+        font-family: Cambria;
+        font-size: 30px;
+        color: black;
+        margin-left: 600px;
+      }
+    </style>
+    <p class="INTRO">
+      Hi this is me Jashan. A new aspiring Software Developer and Web pentester. This is my first web page. Hope You will like it.
+    </p>
+    <style>
+      .INTRO{
+        font-family: Arial;
+        font-size: 20px;
+        color: greenyellow;
+        margin-left: 200px;
+      }
+    </style>
+    <button class="JOIN-button">
+      JOIN ME
+    </button>
+    <style>
+      .JOIN-button{
+        background-color: white;
+        color: blue;
+        height:40px;
+        border-color: blue;
+        border-radius: 2px;
+        margin-left: 1400px;
+        margin-top: -150px;
+        cursor: pointer;
+        transition: opacity,5ms;
+      }
+      .JOIN-button:hover
+        {background-color: blue;
+        color: white;
+      }
+      .JOIN-button:active{
+        opacity: 0.5;
+      }
+    </style>
+    <a href="https://github.com/jashan-art" target="_blank" class="LINK">
+      GITHUB LINK
+    </a>
+    <style>
+      .LINK{
+        font-family: georgia;
+        font-weight: bold;
+        color:black;
+        margin-left: 700px;
+      }
+    </style>
+  </body>
+</html>
+    
+
